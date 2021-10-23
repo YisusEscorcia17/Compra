@@ -38,7 +38,6 @@ public class Compra {
         botonEmail.click();
         botonEmail.sendKeys("wuwamegrucru-7136@yopmail.com");
 
-
         WebElement botonPass = chromeDriver.findElement(By.xpath("//*[@id='passwd']"));
         botonEmail.click();
         botonPass.sendKeys("123456789");
